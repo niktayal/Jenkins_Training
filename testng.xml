@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JenkinsTrainingSuite_NewUI" verbose="1" >
+
+ 	<test name="Jenkins_Training" >
+   	<parameter name="browser" value="chrome"> </parameter>
+	<!--<parameter name="env" value="stg"></parameter>-->
+	   <classes>
+	<class name="training.Jenkins"></class >
+
+ 
+	   </classes>
+ </test>
+ </suite>
